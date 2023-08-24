@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84EE2D8A2A95A2DE009C39FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EE2D892A95A2DE009C39FE /* AppDelegate.swift */; };
+		84EE2D8C2A95A2DE009C39FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EE2D8B2A95A2DE009C39FE /* SceneDelegate.swift */; };
+		84EE2D8E2A95A2DE009C39FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EE2D8D2A95A2DE009C39FE /* ViewController.swift */; };
+		84EE2D912A95A2DE009C39FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EE2D8F2A95A2DE009C39FE /* Main.storyboard */; };
+		84EE2D932A95A2DF009C39FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84EE2D922A95A2DF009C39FE /* Assets.xcassets */; };
+		84EE2D962A95A2DF009C39FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EE2D942A95A2DF009C39FE /* LaunchScreen.storyboard */; };
+		84EE2DA12A95A2DF009C39FE /* Calculador_de_PropinaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EE2DA02A95A2DF009C39FE /* Calculador_de_PropinaTests.swift */; };
+		84EE2DAB2A95A2DF009C39FE /* Calculador_de_PropinaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EE2DAA2A95A2DF009C39FE /* Calculador_de_PropinaUITests.swift */; };
+		84EE2DAD2A95A2DF009C39FE /* Calculador_de_PropinaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EE2DAC2A95A2DF009C39FE /* Calculador_de_PropinaUITestsLaunchTests.swift */; };
+		DDF0B3EC2A97C9E7001BD34A /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF0B3EB2A97C9E7001BD34A /* ResultsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84EE2D9D2A95A2DF009C39FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84EE2D7E2A95A2DE009C39FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84EE2D852A95A2DE009C39FE;
+			remoteInfo = "Calculador de Propina";
+		};
+		84EE2DA72A95A2DF009C39FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84EE2D7E2A95A2DE009C39FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84EE2D852A95A2DE009C39FE;
+			remoteInfo = "Calculador de Propina";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84EE2D862A95A2DE009C39FE /* Calculador de Propina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculador de Propina.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EE2D892A95A2DE009C39FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84EE2D8B2A95A2DE009C39FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84EE2D8D2A95A2DE009C39FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84EE2D902A95A2DE009C39FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84EE2D922A95A2DF009C39FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84EE2D952A95A2DF009C39FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84EE2D972A95A2DF009C39FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EE2D9C2A95A2DF009C39FE /* Calculador de PropinaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculador de PropinaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EE2DA02A95A2DF009C39FE /* Calculador_de_PropinaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculador_de_PropinaTests.swift; sourceTree = "<group>"; };
+		84EE2DA62A95A2DF009C39FE /* Calculador de PropinaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculador de PropinaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EE2DAA2A95A2DF009C39FE /* Calculador_de_PropinaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculador_de_PropinaUITests.swift; sourceTree = "<group>"; };
+		84EE2DAC2A95A2DF009C39FE /* Calculador_de_PropinaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculador_de_PropinaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DDF0B3EB2A97C9E7001BD34A /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84EE2D832A95A2DE009C39FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EE2D992A95A2DF009C39FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EE2DA32A95A2DF009C39FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84EE2D7D2A95A2DE009C39FE = {
+			isa = PBXGroup;
+			children = (
+				84EE2D882A95A2DE009C39FE /* Calculador de Propina */,
+				84EE2D9F2A95A2DF009C39FE /* Calculador de PropinaTests */,
+				84EE2DA92A95A2DF009C39FE /* Calculador de PropinaUITests */,
+				84EE2D872A95A2DE009C39FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84EE2D872A95A2DE009C39FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84EE2D862A95A2DE009C39FE /* Calculador de Propina.app */,
+				84EE2D9C2A95A2DF009C39FE /* Calculador de PropinaTests.xctest */,
+				84EE2DA62A95A2DF009C39FE /* Calculador de PropinaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84EE2D882A95A2DE009C39FE /* Calculador de Propina */ = {
+			isa = PBXGroup;
+			children = (
+				84EE2D892A95A2DE009C39FE /* AppDelegate.swift */,
+				84EE2D8B2A95A2DE009C39FE /* SceneDelegate.swift */,
+				84EE2D8D2A95A2DE009C39FE /* ViewController.swift */,
+				84EE2D8F2A95A2DE009C39FE /* Main.storyboard */,
+				84EE2D922A95A2DF009C39FE /* Assets.xcassets */,
+				84EE2D942A95A2DF009C39FE /* LaunchScreen.storyboard */,
+				84EE2D972A95A2DF009C39FE /* Info.plist */,
+				DDF0B3EB2A97C9E7001BD34A /* ResultsViewController.swift */,
+			);
+			path = "Calculador de Propina";
+			sourceTree = "<group>";
+		};
+		84EE2D9F2A95A2DF009C39FE /* Calculador de PropinaTests */ = {
+			isa = PBXGroup;
+			children = (
+				84EE2DA02A95A2DF009C39FE /* Calculador_de_PropinaTests.swift */,
+			);
+			path = "Calculador de PropinaTests";
+			sourceTree = "<group>";
+		};
+		84EE2DA92A95A2DF009C39FE /* Calculador de PropinaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84EE2DAA2A95A2DF009C39FE /* Calculador_de_PropinaUITests.swift */,
+				84EE2DAC2A95A2DF009C39FE /* Calculador_de_PropinaUITestsLaunchTests.swift */,
+			);
+			path = "Calculador de PropinaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84EE2D852A95A2DE009C39FE /* Calculador de Propina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EE2DB02A95A2DF009C39FE /* Build configuration list for PBXNativeTarget "Calculador de Propina" */;
+			buildPhases = (
+				84EE2D822A95A2DE009C39FE /* Sources */,
+				84EE2D832A95A2DE009C39FE /* Frameworks */,
+				84EE2D842A95A2DE009C39FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Calculador de Propina";
+			productName = "Calculador de Propina";
+			productReference = 84EE2D862A95A2DE009C39FE /* Calculador de Propina.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84EE2D9B2A95A2DF009C39FE /* Calculador de PropinaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EE2DB32A95A2DF009C39FE /* Build configuration list for PBXNativeTarget "Calculador de PropinaTests" */;
+			buildPhases = (
+				84EE2D982A95A2DF009C39FE /* Sources */,
+				84EE2D992A95A2DF009C39FE /* Frameworks */,
+				84EE2D9A2A95A2DF009C39FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84EE2D9E2A95A2DF009C39FE /* PBXTargetDependency */,
+			);
+			name = "Calculador de PropinaTests";
+			productName = "Calculador de PropinaTests";
+			productReference = 84EE2D9C2A95A2DF009C39FE /* Calculador de PropinaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84EE2DA52A95A2DF009C39FE /* Calculador de PropinaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EE2DB62A95A2DF009C39FE /* Build configuration list for PBXNativeTarget "Calculador de PropinaUITests" */;
+			buildPhases = (
+				84EE2DA22A95A2DF009C39FE /* Sources */,
+				84EE2DA32A95A2DF009C39FE /* Frameworks */,
+				84EE2DA42A95A2DF009C39FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84EE2DA82A95A2DF009C39FE /* PBXTargetDependency */,
+			);
+			name = "Calculador de PropinaUITests";
+			productName = "Calculador de PropinaUITests";
+			productReference = 84EE2DA62A95A2DF009C39FE /* Calculador de PropinaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84EE2D7E2A95A2DE009C39FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					84EE2D852A95A2DE009C39FE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					84EE2D9B2A95A2DF009C39FE = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 84EE2D852A95A2DE009C39FE;
+					};
+					84EE2DA52A95A2DF009C39FE = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 84EE2D852A95A2DE009C39FE;
+					};
+				};
+			};
+			buildConfigurationList = 84EE2D812A95A2DE009C39FE /* Build configuration list for PBXProject "Calculador de Propina" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84EE2D7D2A95A2DE009C39FE;
+			productRefGroup = 84EE2D872A95A2DE009C39FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84EE2D852A95A2DE009C39FE /* Calculador de Propina */,
+				84EE2D9B2A95A2DF009C39FE /* Calculador de PropinaTests */,
+				84EE2DA52A95A2DF009C39FE /* Calculador de PropinaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84EE2D842A95A2DE009C39FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EE2D962A95A2DF009C39FE /* LaunchScreen.storyboard in Resources */,
+				84EE2D932A95A2DF009C39FE /* Assets.xcassets in Resources */,
+				84EE2D912A95A2DE009C39FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EE2D9A2A95A2DF009C39FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EE2DA42A95A2DF009C39FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84EE2D822A95A2DE009C39FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EE2D8E2A95A2DE009C39FE /* ViewController.swift in Sources */,
+				84EE2D8A2A95A2DE009C39FE /* AppDelegate.swift in Sources */,
+				84EE2D8C2A95A2DE009C39FE /* SceneDelegate.swift in Sources */,
+				DDF0B3EC2A97C9E7001BD34A /* ResultsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EE2D982A95A2DF009C39FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EE2DA12A95A2DF009C39FE /* Calculador_de_PropinaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EE2DA22A95A2DF009C39FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EE2DAB2A95A2DF009C39FE /* Calculador_de_PropinaUITests.swift in Sources */,
+				84EE2DAD2A95A2DF009C39FE /* Calculador_de_PropinaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84EE2D9E2A95A2DF009C39FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84EE2D852A95A2DE009C39FE /* Calculador de Propina */;
+			targetProxy = 84EE2D9D2A95A2DF009C39FE /* PBXContainerItemProxy */;
+		};
+		84EE2DA82A95A2DF009C39FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84EE2D852A95A2DE009C39FE /* Calculador de Propina */;
+			targetProxy = 84EE2DA72A95A2DF009C39FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84EE2D8F2A95A2DE009C39FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EE2D902A95A2DE009C39FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84EE2D942A95A2DF009C39FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EE2D952A95A2DF009C39FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84EE2DAE2A95A2DF009C39FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84EE2DAF2A95A2DF009C39FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84EE2DB12A95A2DF009C39FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Calculador de Propina/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MERC.Calculador-de-Propina";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		84EE2DB22A95A2DF009C39FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Calculador de Propina/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MERC.Calculador-de-Propina";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		84EE2DB42A95A2DF009C39FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MERC.Calculador-de-PropinaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calculador de Propina.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Calculador de Propina";
+			};
+			name = Debug;
+		};
+		84EE2DB52A95A2DF009C39FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MERC.Calculador-de-PropinaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calculador de Propina.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Calculador de Propina";
+			};
+			name = Release;
+		};
+		84EE2DB72A95A2DF009C39FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MERC.Calculador-de-PropinaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Calculador de Propina";
+			};
+			name = Debug;
+		};
+		84EE2DB82A95A2DF009C39FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MERC.Calculador-de-PropinaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Calculador de Propina";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84EE2D812A95A2DE009C39FE /* Build configuration list for PBXProject "Calculador de Propina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EE2DAE2A95A2DF009C39FE /* Debug */,
+				84EE2DAF2A95A2DF009C39FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84EE2DB02A95A2DF009C39FE /* Build configuration list for PBXNativeTarget "Calculador de Propina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EE2DB12A95A2DF009C39FE /* Debug */,
+				84EE2DB22A95A2DF009C39FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84EE2DB32A95A2DF009C39FE /* Build configuration list for PBXNativeTarget "Calculador de PropinaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EE2DB42A95A2DF009C39FE /* Debug */,
+				84EE2DB52A95A2DF009C39FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84EE2DB62A95A2DF009C39FE /* Build configuration list for PBXNativeTarget "Calculador de PropinaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EE2DB72A95A2DF009C39FE /* Debug */,
+				84EE2DB82A95A2DF009C39FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84EE2D7E2A95A2DE009C39FE /* Project object */;
+}
